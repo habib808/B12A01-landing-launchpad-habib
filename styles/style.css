@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* header styles */
 
 nav {
     display: flex;
@@ -64,6 +65,7 @@ nav {
     font-size: 15px;
     font-family: raleway;
     margin-top: 30px;
+    margin-bottom: 100px;
 }
 
 .btn-secondary button:hover {
@@ -72,4 +74,52 @@ nav {
 
 header {
     background-image: url(../assets/Hero-bg.png);
+}
+
+/* action section  */
+
+.btn-third {
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-family: inter;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 50px;
+    width: 220px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: raleway;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.btn-third:hover {
+    background-color: rgb(255, 147, 7);
+}
+
+.action-img img {
+    height: 328px;
+    width: 403px;
+    border-radius: 48px;
+}
+
+.action-section {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-size: 42px;
+    font-family: raleway;
+    margin-bottom: 15px;
+}
+
+.action-des {
+    font-size: 24px;
+    color: #21202777;
+    font-family: raleway;
 }
