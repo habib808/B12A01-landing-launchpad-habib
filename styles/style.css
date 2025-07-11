@@ -3,6 +3,15 @@
     padding: 0;
 }
 
+body {
+    background-color: #F5F8FF;
+    font-family: inter;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
 /* header styles */
 
 nav {
@@ -122,4 +131,191 @@ h1 {
     font-size: 24px;
     color: #21202777;
     font-family: raleway;
+}
+
+/* productive user section  */
+
+span {
+    font-size: 80px;
+    font-weight: bold;
+    font-family: inter;
+    color: #4E47FF;
+}
+
+
+.pd-title {
+    font-size: 50px;
+    font-family: raleway;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pd-user-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+    text-align: center;
+    background-color: #E5E7FF;
+    width: 80%;
+    border-radius: 20px;
+    padding: 50px;
+
+}
+
+.user-item {
+    display: flex;
+}
+
+.user-item p {
+    font-size: 20px;
+    font-family: inter;
+    color: rgba(0, 0, 0, 0.55);
+
+}
+
+/* user feedback */
+
+.star {
+    display: flex;
+
+}
+
+.user-feedback-sub {
+    background-color: white;
+    width: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(123, 117, 117, 0.146);
+
+}
+
+.img-gap {
+    margin-left: -190px;
+}
+
+.profile-pic {
+    display: flex;
+}
+
+.user-feedback-items {
+    margin-bottom: 100px;
+    margin-top: 50px;
+    display: flex;
+    max-width: 90%;
+}
+
+.star-margin {
+    margin-left: -200px;
+    margin-bottom: 13px;
+}
+
+#feedback-des {
+    margin-bottom: 30px;
+}
+
+.profile-pic {
+
+    margin-left: -120px;
+}
+
+.review-name {
+    margin-left: -100px;
+    color: rgba(33, 31, 31, 0.713);
+}
+
+.picure img {
+    border-radius: 50%;
+}
+
+/* ............... */
+header {
+    display: none;
+}
+
+.user-feedback-items {
+    display: none;
+}
+
+.action-section {
+    display: none;
+}
+
+/* ...............  */
+
+
+
+/* Contact Us section styles  */
+
+.contact-us-section {
+    margin-bottom: 100px;
+    display: flex;
+    max-width: 90%;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forms {
+    margin-left: 150px;
+
+}
+
+.get-in-touch {
+    font-size: 90px;
+    font-weight: bold;
+    font-family: raleway;
+    margin-left: 100px;
+}
+
+.forms input {
+    width: 450px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid rgba(31, 31, 31, 0.09);
+    margin-top: 10px;
+    padding-left: 14px;
+
+}
+
+.forms label {
+    font-size: 18px;
+    font-family: inter;
+}
+
+.forms textarea {
+    width: 420px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid rgba(31, 31, 31, 0.09);
+    margin-top: 10px;
+    padding-left: 14px;
+    padding: 20px;
+    margin-bottom: 10px;
+
+}
+
+.forms input::placeholder {
+    font-size: 16px;
+    font-family: inter;
+}
+
+.forms textarea::placeholder {
+    font-size: 16px;
+    font-family: inter;
+}
+
+.submit-btn {
+    color: white;
+    background-color: #4E47FF;
+    font-size: 18px;
+    font-family: inter;
+    margin-left: 8px;
+
+
+}
+
+.submit-btn:hover {
+    background-color: rgb(255, 147, 7);
+
 }
